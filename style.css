@@ -1,0 +1,73 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* body .displayNone {
+  display: none;
+}
+
+* body section {
+  text-align: center;
+}
+
+* body section img {
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  border: 4px solid black;
+  opacity: 0.5;
+}
+
+* body section img.displayNone {
+  display: none;
+}
+
+* body section#title {
+  height: 150px;
+  border: 2px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* body section#questions {
+  height: 150px;
+  border: 2px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* body section#questions button {
+  display: inline-block;
+  visibility: hidden;
+}
+
+* body section#questions button.visible {
+  visibility: unset;
+}
+/*# sourceMappingURL=style.css.map */
